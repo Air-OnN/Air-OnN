@@ -1,0 +1,40 @@
+
+        body {
+
+            background: url(../img/fon.jpg);
+
+        }
+
+        h1 {
+            color: black;
+
+            font-family: 'Saira Stencil One', cursive;
+
+        }
+
+        h2 {
+            text-align: left;
+
+            color: rgb(37, 5, 218);
+
+            font-family: 'Indie Flower', cursive;
+
+        }
+
+        .text {
+            color: black;
+
+            text-align: center;
+
+            font-family: 'Saira Stencil One', cursive;
+
+        }
+
+        .photo {
+            text-align: center;
+        }
+
+        .c {
+            text-align: center;
+        }
+
