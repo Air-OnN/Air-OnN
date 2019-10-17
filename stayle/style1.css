@@ -1,32 +1,16 @@
 
         body {
 
-            background: url(../photo/fon.jpg); 
-
-        }
-
-        h1 {
-            color: black;
-
-            font-family: 'Saira Stencil One', cursive;
-
-        }
-
-        h2 {
-            text-align: left;
-
-            color: rgb(37, 5, 218);
-
-            font-family: 'Indie Flower', cursive;
+            background-color: rgb(201, 200, 200); /*фон*/
 
         }
 
         .text {
-            color: black;
+            color: rgb(0, 0, 0);
 
             text-align: center;
 
-            font-family: 'Saira Stencil One', cursive;
+            font-family: 'Arsenal', sans-serif;
 
         }
 
@@ -39,3 +23,23 @@
             Margin: 0 auto; 
         }
 
+        .blok {
+            align-items: center; /*всё содержимое в центре*/
+
+            max-width: 350px; /*ширина блока*/
+
+            margin: 0 auto; /*внешний отступ для всех сторон, 0-значит центр*/
+
+            padding: 50px; /*внутренний отступ от всех сторон*/
+        }
+
+        .blok1 {
+            align-items: center; /*всё содержимое в центре*/
+
+            max-width: 550px; /*ширина блока*/
+
+            margin: 0 auto; /*внешний отступ для всех сторон, 0-значит центр*/
+
+            padding: 50px; /*внутренний отступ от всех сторон*/
+        }
+        
