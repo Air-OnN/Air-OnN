@@ -18,61 +18,108 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="/"><img src="/photo/Fuck.jpeg" width="50" height="50"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                    <span>Меню</span>
-    
-                </button>
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/">Home</a>
+                        <a class="nav-link" href="/">Стартовая</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="/hobby/">Hobby's</a>
+                        <a class="nav-link" href="/hobby/">Хобби</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="/work/">Work's</a>
+                        <a class="nav-link" href="/work/">Работа</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/i/">О себе</a>
                     </li>
 
                 </ul>
             </div>
         </nav>
+
+
         <div class="text">
-            <h1><strong>Kurbanov Denis</strong></h1>
+            <h1><strong>Всем привет!</strong></h1>
             <div class="blok1">
-                <p>Hello, my name is Denis and special for <a href="https://vk.com/potamushto" target="_blank">Denis
-                        Potamushto</a> – Fuck you!
+                <p>Меня зовут Денис, добро пожаловать на мою скромную страничку.
                 </p>
             </div>
         </div>
 
 
-        <div class="photo">
-            <img src="/photo/Fuck.jpeg" width="308" height="353">
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="slider">
+                            <img src="/photo/sl_2.jpeg" class="d-block w-100" alt="hobby's">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="text-slider">
+                                    <p>Мои хобби</p>
+                                </div>
+                                <p><a href="/hobby/">Подробнее...</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slider">
+                            <img src="/photo/sl_1.jpeg" class="d-block w-100" alt="work's">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="text-slider">
+                                    <p>Моя работа</p>
+                                </div>
+                                <p><a href="/work/">Подробнее...</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slider">
+                            <img src="/photo/sl_3.jpeg" class="d-block w-100" alt="i">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="text-slider">
+                                    <p>О себе</p>
+                                </div>
+                                <p><a href="/i/">Подробнее...</a></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
+    </div>
 
-
-        <div class="blok1">
-            <ul>
-                <li><del>Я не умею центровать картинку</del></li>
-                <li><del>Я не понимаю как сделать нумерацию или маркеры</del></li>
-                <li><del>Не удалось сменить шрифт</del></li>
-                <li>Делаю то что должен делать</li>
-            </ul>
-
-        </div>
-
-        <div class="text">
-            <p>
-                Если хочешь что то мне сказать, то напиши это в <a href="https://vk.com/perfect_meltdown"
-                    target="_blank">VK</a>
-            </p>
-
-        </div>
+    </div>
 
     </div>
 </body>
-
+<footer>
+        <div class="text">
+                <div class="blok_vk"></div>
+                <p>
+                    Если хочешь что то мне сказать, то напиши это в <a href="https://vk.com/perfect_meltdown"
+                        target="_blank">VK</a>
+                </p>
+            </div>
+</footer>
 </html>
