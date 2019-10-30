@@ -1,118 +1,118 @@
+* {
+    box-sizing: border-box;
+    /*не очень понятно что это*/
+}
 
-        .page {
+header {
+    height: 100px;
+}
 
-            display: flex;
+body {
+    background-color: rgb(228, 227, 227);
+    padding: 0;
+    /*работало и без этого*/
+    margin: 0;
+    /*работало и без этого*/
+}
 
-            flex-direction: column;
-        }
-        
-        
-        body {
+footer {
+    height: 100px;
+}
 
-            background-color:  rgb(214, 207, 207); /*фон*/
+.page {
+    display: flex;
+    flex-direction: column;
+    /*не очень понятно что это*/
+    height: 100vh;
+    /*работало и без этого*/
+}
 
-        }
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
 
-        .text {
-            
-            text-align: center;
+.text {
+    text-align: center;
+    font-family: 'Oranienbaum', serif;
+    font-size: 20px;
+    align-items: center;
+    /*всё содержимое в центре*/
+    max-width: 650px;
+    /*ширина блока*/
+    margin: 0 auto;
+    /*внешний отступ для всех сторон, 0-значит центр*/
+    padding: 10px/*внутренний отступ от всех сторон*/
+}
 
-            font-family: 'Oranienbaum', serif;
+.text_2 {
+    /*див для текста "не по центру"*/
+    font-family: 'Oranienbaum', serif;
+    font-size: 20px;
+    align-items: center;
+    /*всё содержимое в центре*/
+    max-width: 650px;
+    /*ширина блока*/
+    margin: 0 auto;
+    /*внешний отступ для всех сторон, 0-значит центр*/
+    padding: 10px;
+    /*внутренний отступ от всех сторон*/
+}
 
-            font-size: 20px;
+.photo {
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 10px 10px 15px 10px rgb(135, 132, 132);
+}
 
+.forcard {
+    align-items: center;
+    /*всё содержимое в центре*/
+    max-width: 350px;
+    /*ширина блока*/
+    margin: 0 auto;
+    /*внешний отступ для всех сторон, 0-значит центр*/
+    padding: 50px
+    /*внутренний отступ от всех сторон*/
+}
 
-        }
+.inline {
+    /*див блок для выравнивания контента в линию*/
+    display: flex;
+    justify-content: center;
+}
 
-        .photo {
-            text-align: center;
-        }
+.slider {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    /*ширина блока*/
+    margin: 0 auto;
+    /*внешний отступ для всех сторон, 0-значит центр*/
+    padding: 30px;
+    justify-content: space-around;
+}
 
+.text-slider {
+    text-align: center;
+    font-family: 'Oranienbaum', serif;
+    font-size: 50px;
+}
 
-        .card {
-            Margin: 0 auto; 
-        }
+.carousel-indicators {
+    margin: 10px;
+}
 
-        .blok {
-            align-items: center; /*всё содержимое в центре*/
+.forfooter {
+    margin-top: 300px;
+}
 
-            max-width: 350px; /*ширина блока*/
+.work {
+    text-align: center;
+    margin: 50px;
+}
 
-            margin: 0 auto; /*внешний отступ для всех сторон, 0-значит центр*/
-
-            padding: 50px; /*внутренний отступ от всех сторон*/
-        }
-
-        .blok1 {
-            align-items: center; /*всё содержимое в центре*/
-
-            max-width: 550px; /*ширина блока*/
-
-            margin: 0 auto; /*внешний отступ для всех сторон, 0-значит центр*/
-
-            padding: 20px; /*внутренний отступ от всех сторон*/
-
-            font-family: 'Oranienbaum', serif;
-
-            font-size: 20px;
-        }
-
-        .blok2 {
-            align-items: center; /*всё содержимое в центре*/
-
-            max-width: 350px; /*ширина блока*/
-
-            margin: 10px; /*внешний отступ для всех сторон, 0-значит центр*/
-
-            padding: 30px; /*внутренний отступ от всех сторон*/
-        }
-
-
-        .blok3 {
-            display: flex;
-
-            justify-content: center;
-
-           
-        }
-        
-        .slider {
-            display: flex;
-
-            align-items: center;
-
-            max-width: 900px; /*ширина блока*/
-
-            margin: 0 auto; /*внешний отступ для всех сторон, 0-значит центр*/
-
-            padding: 30px;
-
-            justify-content: space-around;
-
-
-        }
-
-
-        .text-slider {
-            
-            text-align: center;
-
-            font-family: 'Oranienbaum', serif;
-
-            font-size: 50px;
-
-
-        }
-        
-        .blok_vk /*он же блядский footer*/ {
-
-            height: 500px;
-
-        }
-
-        .carousel-indicators {
-
-            margin: 10px;
-        }
-        
-      
+.otstup {
+    padding: 10px;
+}
