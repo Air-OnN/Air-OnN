@@ -61,6 +61,12 @@ content {
 }
 
 .photo {
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 10px 10px 15px 10px rgb(135, 132, 132);
+}
+
+.photo2 {
     width: 310px;
     text-align: center;
     margin: 0 auto;
@@ -117,5 +123,3 @@ content {
 .otstup {
     padding: 10px;
 }
-
-s
