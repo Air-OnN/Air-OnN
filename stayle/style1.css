@@ -27,7 +27,7 @@ footer {
     /*работало и без этого*/
 }
 
-.content {
+content {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -61,6 +61,7 @@ footer {
 }
 
 .photo {
+    width: 310px;
     text-align: center;
     margin: 0 auto;
     box-shadow: 10px 10px 15px 10px rgb(135, 132, 132);
@@ -116,3 +117,5 @@ footer {
 .otstup {
     padding: 10px;
 }
+
+s
