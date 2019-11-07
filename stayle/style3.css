@@ -1,0 +1,81 @@
+    * {
+        box-sizing: border-box;
+        /*не очень понятно что это*/
+    }
+    
+    body {
+        background: #eeeeee;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .page {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .phone_photo {
+        margin: 0 auto;
+        height: 677px;
+        width: 1460px;
+        background: #ffffff;
+        max-width: 100%;
+    }
+    
+    .photo {
+        margin: 0 auto;
+        max-width: 1024px;
+        /*не очень понимаю как оно работает - задать вопрос*/
+    }
+    
+    .photo img {
+        /*не очень понимаю как оно работает - задать вопрос*/
+        width: 100%;
+    }
+    
+    p {
+        font-size: 16;
+        margin: 15px;
+        color: #333333;
+    }
+    
+    h1 {
+        font-size: 40;
+        text-align: center;
+        color: #333333;
+        margin-top: 60px;
+    }
+    
+    h2 {
+        font-size: 19px;
+        text-align: center;
+        margin-top: 25px;
+        color: #333333;
+    }
+    
+    a {
+        color: #477ca7;
+    }
+    
+    .content_conteiner {
+        max-width: 590px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    
+    .citata {
+        margin-top: 50px;
+        text-align: left;
+    }
+    
+    .content_conteiner2 {
+        max-width: 590px;
+        margin: 0 auto;
+        padding: 13px;
+    }
+    
+    .content_conteiner3 {
+        max-width: 590px;
+        margin-top: 20px;
+        text-align: left;
+    }
