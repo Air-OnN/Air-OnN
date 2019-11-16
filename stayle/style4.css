@@ -1,0 +1,17 @@
+  * {
+      box-sizing: border-box;
+      /*не очень понятно что это*/
+  }
+  
+  body {
+      background: rgb(243, 4, 48);
+  }
+  
+  .photo {
+      max-width: 1800px;
+      margin: 0 auto;
+  }
+  
+  .photo img {
+      width: 100%;
+  }

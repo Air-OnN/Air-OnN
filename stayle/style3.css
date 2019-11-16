@@ -6,51 +6,53 @@
     body {
         background: #eeeeee;
         font-family: 'Roboto', sans-serif;
-    }
-    
-    .page {
         text-align: center;
         display: flex;
         flex-direction: column;
+        color: #333333;
+        font-size: 16;
+    }
+    
+    header {
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 16px;
+        max-width: 590px;
     }
     
     .phone_photo {
-        margin: 0 auto;
-        height: 677px;
+        margin: auto;
         width: 1460px;
         background: #ffffff;
         max-width: 100%;
+        padding-bottom: 15px;
     }
     
     .photo {
-        margin: 0 auto;
+        margin: auto;
+        margin-bottom: 15px;
         max-width: 1024px;
-        /*не очень понимаю как оно работает - задать вопрос*/
     }
     
     .photo img {
-        /*не очень понимаю как оно работает - задать вопрос*/
+        /*патч КДЕ под фри БСД*/
         width: 100%;
-    }
-    
-    p {
-        font-size: 16;
-        margin: 15px;
-        color: #333333;
     }
     
     h1 {
         font-size: 40;
         text-align: center;
-        color: #333333;
-        margin-top: 60px;
+        margin-bottom: 25px;
     }
     
     h2 {
         font-size: 19px;
-        text-align: center;
-        margin-top: 25px;
-        color: #333333;
+        margin-top: 21px;
+        margin-bottom: 2px;
+    }
+    
+    p {
+        margin-bottom: 23px;
     }
     
     a {
@@ -64,18 +66,12 @@
     }
     
     .citata {
-        margin-top: 50px;
-        text-align: left;
+        margin-top: 57px;
+        margin-bottom: 20px;
     }
     
-    .content_conteiner2 {
+    footer {
         max-width: 590px;
         margin: 0 auto;
         padding: 13px;
-    }
-    
-    .content_conteiner3 {
-        max-width: 590px;
-        margin-top: 20px;
-        text-align: center;
     }
